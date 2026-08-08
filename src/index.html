@@ -1,14 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>My app</title>
-    <meta charset="UTF-8" />
-    <base href="/">
-    <meta property="og:image" content="https://bolt.new/static/og_default.png" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:image" content="https://bolt.new/static/og_default.png" />
-  </head>
-  <body>
-    <app-root>Loading...</app-root>
-  </body>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SomPex - Sombrillas para el Mundo Marino</title>
+    <link rel="stylesheet" href="css/global_styles.css">
+</head>
+<body>   
+    <header>
+        <div class="logo">
+            <img src="assets/images/logotipo.png" alt="Logotipo de SomPex">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#productos">Modelos</a></li>
+                <li><a href="#beneficios">¿Por qué protegerlos?</a></li>
+                <li><a href="#testimonios">Opiniones</a></li>
+                <li><a href="#precios">Precios</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>         
+        <section id="hero">
+            <h1>Sombrillas premium para peces, delfines y ballenas</h1>
+            <p>Porque el sol brilla para todos, incluso bajo el agua. Protege a tus amigos marinos con estilo.</p>
+            <a href="#precios" class="btn-cta">Ver Catálogo Submarino</a>
+        </section>
+        
+        <section id="productos">
+            <h2>Nuestra Colección Submarina</h2>
+            <p>Diseños adaptados a cada anatomía marina.</p>        
+            
+            <div class="productos-container">
+                
+              <div class="productos-container">
+                <article class="producto-card">
+                    <img src="assets/images/peces_pequenos.png" alt="Pez usando una mini sombrilla">
+                    <h3>Modelo Pez Pequeño</h3>
+                </article>
+                
+                <article class="producto-card"> 
+                    <img src="assets/images/delfines.png" alt="Delfín usando una sombrilla"> 
+                    <h3>Modelo Delfín</h3>
+                </article>
+                
+                <article class="producto-card"> 
+                    <img src="assets/images/ballenas.png" alt="Ballena usando una sombrilla"> 
+                    <h3>Modelo Ballena</h3>
+                </article>
+              </div>            
+            </div>         
+        </section>
+
+        <section id="beneficios">
+            <h2>¿Por qué tu pez necesita una sombrilla?</h2>
+            <ul>
+                <li><strong>Protección UV:</strong> Evita el exceso de luz en sus siestas flotantes.</li>
+                <li><strong>Estilo único:</strong> Serán la envidia de todo el arrecife de coral.</li>
+                <li><strong>Material eco-amigable:</strong> Hechas con plástico reciclado del océano.</li>
+            </ul>
+        </section>
+
+        <section id="testimonios">
+            <h2>Lo que dicen nuestros clientes marinos</h2>
+            <blockquote>
+                <p>"¡Por fin puedo nadar de espaldas sin que el sol me deslumbre! El modelo Splash cambió mi vida."</p>
+                <cite>— Flipper, Delfín Austral</cite>
+            </blockquote>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 AquaShield Inc. Salvando la piel del océano, una sombrilla a la vez.</p>
+        <p><a href="#privacidad">Política de protección de aletas</a></p>
+    </footer>
+
+   
+</body>
 </html>
